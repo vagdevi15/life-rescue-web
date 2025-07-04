@@ -54,7 +54,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-2"
+              className="bg-card rounded-2xl p-8 shadow-soft hover:shadow-medium transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
@@ -79,7 +79,7 @@ const ServicesSection = () => {
                 ))}
               </ul>
 
-              <button className="mt-6 w-full btn-primary py-3 rounded-lg font-medium transition-all duration-300 hover:scale-105">
+              <button className="mt-auto w-full btn-primary py-3 px-6 rounded-lg font-medium transition-all duration-300 hover:scale-105">
                 Learn More
               </button>
             </div>

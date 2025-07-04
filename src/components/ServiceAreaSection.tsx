@@ -104,26 +104,6 @@ const ServiceAreaSection = () => {
               </div>
             </div>
 
-            {/* Inter-city Services */}
-            <div className="bg-card rounded-xl p-6 shadow-soft">
-              <h4 className="text-xl font-bold text-card-foreground mb-4 flex items-center gap-3">
-                <i className="fas fa-road text-primary"></i>
-                Inter-City Services
-              </h4>
-              <p className="text-muted-foreground mb-4">
-                We also provide long-distance medical transportation to major cities across South India.
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {["Bangalore", "Chennai", "Mumbai", "Pune", "Visakhapatnam"].map((city, index) => (
-                  <span 
-                    key={index}
-                    className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm"
-                  >
-                    {city}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </div>
